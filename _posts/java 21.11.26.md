@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title:  "Java 입문하기"
 categories: java
 tag: [java, blog, 자바의 정석]
