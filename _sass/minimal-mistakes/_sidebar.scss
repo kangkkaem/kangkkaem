@@ -134,12 +134,13 @@
   }
 
   img {
-    max-width: 110px;
-    border-radius: 20%;
+    max-width: 130x;
+    border-radius: 15%;
 
     @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid $border-color;
+      padding: 2px;
+      border: 1px solid hsl(56, 100%, 50%);
+      //border: 1px solid $border-color;
     }
   }
 }
