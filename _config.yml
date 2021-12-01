@@ -102,10 +102,10 @@ analytics:
 # Site Author
 author:
   name             : "KangKkaem"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/kangkkaem.png"
   bio              : "강깸의 블로그입니다."
   location         : "South Korea"
-  email            :
+  email            : "kangkkaem@naver.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
