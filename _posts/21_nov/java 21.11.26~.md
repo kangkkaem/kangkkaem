@@ -6,6 +6,8 @@ tag: [java, blog, 자바의 정석]
 toc: false
 author_profile: true
 search: true
+sidebar:
+  nav: "docs"
 ---
 
 Java의 정석과 이것이 자바다 두책중에 고민을 했는데 ..

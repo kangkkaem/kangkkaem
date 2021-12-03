@@ -11,7 +11,7 @@ docs:
   - title: "Java"
     children:
       - title: "Java"
-        url: /docs/java/
+        url: /_pages/java/
       - title: "연습문제"
         url: /docs/연습문제/
 
