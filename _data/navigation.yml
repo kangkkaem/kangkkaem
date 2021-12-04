@@ -8,12 +8,12 @@ main:
     url: /search/
     
 docs:
-  - title: "Java"
+  - title: Java
     children:
       - title: "Java"
-        url: /java/
+        url: /docs/java/
       - title: "연습문제"
-        url: /연습문제/
+        url: /docs/연습문제/
 
 
   # - title: "About"
