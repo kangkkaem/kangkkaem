@@ -3,7 +3,7 @@ layout: single
 title:  "Java - 조건제어문 switch문"
 categories: java
 tag: [java]
-toc: false
+toc: true
 author_profile: true
 search: true
 sidebar:
@@ -52,13 +52,13 @@ public class Sample {
 
 ![외근](/assets/images/외근.JPG)
 
-9를 찍으면 "회의를 합니다" 실행문이 선택되어서 swich문을 빠져나오게되서 출력됨.
+> 9를 찍으면 "회의를 합니다" 실행문이 선택되어서 swich문을 빠져나오게되서 출력됨.
+>
+> 11은 default 이므로 외근이 출력됨. default는 생략 가능하다.
 
-11은 default 이므로 외근이 출력됨. default는 생략 가능하다.
 
 
-
-- 영어 대소문자에 관계없이 똑같은 알파벳이라면 동일하게 처리되도록 만든 switch문
+#### **영어 대소문자에 관계없이 똑같은 알파벳이라면 동일하게 처리되도록 만든 switch문**
 
 ```java
 import java.util.Scanner;
