@@ -20,7 +20,7 @@ title                    : "KangKkaem"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "KangKkaem"
-description              : "강깸의 블로그입니다."
+description              : "열심히 하는 강깸의 프로그래밍 블로그입니다."
 url                      : "https://kangkkaem.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
