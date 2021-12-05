@@ -105,14 +105,14 @@ author:
   avatar           : "/assets/images/gaemi.jpg"
   bio              : "열심히 하는 강깸의 프로그래밍 블로그입니다."
   location         : "South Korea"
-  email            : "kangkkaem@naver.com"
+  # email            : "kangkkaem@naver.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto: kangkkaem@github.io"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://kangkkaem.github.io"
+      # url: "https://kangkkaem.github.io"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/kangkkaem"
@@ -271,16 +271,16 @@ defaults:
       comments: true
       share: true
       related: true
-      show_date: true
+      mathjax: true
+      sidebar_main: true
 
-
- # _docs
-  - scope:
-      path: ""
-      type: docs
-    values:
-      sidebar:
-        nav: "docs"
+#  # _docs
+#   - scope:
+#       path: ""
+#       type: docs
+#     values:
+#       sidebar:
+#         nav: "docs"
 
 date_format: "%Y-%m-%d"
 
