@@ -39,3 +39,4 @@ sidebar:
 - ALT + 클릭  : 한번 수정
 - ALT + ↑ / ↓  : 이동
 - ALT + SHIFT + ↑ / ↓    : 복사이동
+- Ctrl + Shift + o  : 자동으로 import 문 추가
