@@ -2,7 +2,7 @@
 layout: single
 title:  "Java - do while문"
 categories: java
-tag: [java, 문제풀이]
+tag: [연습문제]
 toc: false
 author_profile: true
 search: true
