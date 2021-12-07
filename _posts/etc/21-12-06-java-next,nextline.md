@@ -2,7 +2,7 @@
 layout: single
 title:  "Java - next와 nextLine 차이"
 categories: 기타지식
-tag: [java]
+tag: [기타지식]
 toc: false
 author_profile: true
 search: true

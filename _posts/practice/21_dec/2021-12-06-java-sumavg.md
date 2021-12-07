@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Java - 총점과 평균 출력 프로그램"
-categories: java
+categories: 연습문제
 tag: [연습문제]
 toc: false
 author_profile: true

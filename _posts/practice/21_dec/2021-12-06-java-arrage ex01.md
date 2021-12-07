@@ -2,7 +2,7 @@
 layout: single
 title:  "Java - 배열 연습문제"
 categories: 연습문제
-tag: [java]
+tag: [연습문제]
 toc: false
 author_profile: true
 search: true

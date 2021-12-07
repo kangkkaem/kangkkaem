@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Java - 배열"
-categories: java
+categories: 연습문제
 tag: [연습문제]
 toc: false
 author_profile: true

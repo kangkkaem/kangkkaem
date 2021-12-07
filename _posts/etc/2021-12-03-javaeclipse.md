@@ -1,8 +1,8 @@
 ---
 layout: single
 title:  "Java - 이클립스 설정, 단축키"
-categories: java
-tag: [java]
+categories: 기타지식
+tag: [기타지식]
 toc: false
 author_profile: true
 search: true
