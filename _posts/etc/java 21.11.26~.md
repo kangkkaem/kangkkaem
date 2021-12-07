@@ -2,7 +2,7 @@
 layout: post
 title:  "Java 입문하기"
 categories: 기타
-tag: [java, blog, 자바의 정석]
+tag: [기타, java, blog, 자바의 정석]
 toc: false
 author_profile: true
 search: true
