@@ -9,7 +9,7 @@ search: true
 sidebar:
   nav: "docs"
 ---
-
+배열 연습문제 -3
 ```java
 import java.util.Scanner;
 
@@ -75,4 +75,6 @@ public class Sample {
 	}
 }
 ```
+
+![주소출력](/assets/images/주소출력.JPG)
 배열 연습문제 2 번에서 살짝 다른문제이다. 구조는 똑같다.

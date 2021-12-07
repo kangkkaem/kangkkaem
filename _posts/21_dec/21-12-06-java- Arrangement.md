@@ -3,13 +3,16 @@ layout: single
 title:  "Java - 배열"
 categories: java
 tag: [연습문제]
-toc: true
+toc: false
 author_profile: true
 search: true
 sidebar:
   nav: "docs"
 ---
 
+## 배열
+
+**예제)**
 
 ```java
 public class Sample {
@@ -49,15 +52,30 @@ public class Sample {
 		for(int i= 0; i<c.length; i++) {
 			System.out.println(c[i]);
 			
-		//문자열타입
-		String[] d = new String[3];
-		d[0] ="홍길동";
-		d[2] ="심청이";
-		for(int i=0; i<d.length; i++) {
-	         System.out.println(d[i]);
-
 		}
-		}
-	} 	
-}
+	}
+} 	
 ```
+![배열출력](/assets/images/배열출력.JPG)
+
+
+
+- **배열** : *같은 타입 *의 여러변수를 하나의 묶음으로 다루는것
+
+------
+
+int [] score = new int[5];             // 5개의 int 값을 저장할 수 있는 배열을 생성한다.
+
+------
+
+![score](/assets/images/score.PNG)
+
+```
+타입[] 변수이름;   //배열을 선언(배열을 다루기 위한 참조변수 선언)
+변수이름 = new 타입[길이];     // 배열을 생성(실제 저장공간을 생성)
+```
+
+
+
+- 인덱스의 범위는 0부터 배열길이 -1까지 이다.
+- 배열의 길이 (배열이름.length) -> 인덱스 범위 에러방지를 위해서 사용한다.

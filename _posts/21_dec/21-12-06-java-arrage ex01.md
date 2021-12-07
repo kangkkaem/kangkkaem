@@ -36,3 +36,6 @@ public class Sample {
 	}
 }
 ```
+![배열예제1](/assets/images/배열예제1.JPG)
+
+- 배열의 길이 (배열이름.length) -> 인덱스 범위 에러방지를 위해서 사용한다.
