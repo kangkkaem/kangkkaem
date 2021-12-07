@@ -12,7 +12,7 @@
       </li>
       <li>
         <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
-        <span class="nav__sub-title">Java/java/연습문제<기타지식</span>
+        <span class="nav__sub-title">Java</span>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
             <ul>
                 <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
@@ -25,6 +25,11 @@
                 {% for category in site.categories %}
                     {% if category[0] == "연습문제" %}
                         <li><a href="/categories/#연습문제" class="">연습문제 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+                {% for category in site.categories %}
+                    {% if category[0] == "기타지식" %}
+                        <li><a href="/categories/#기타지식" class="">기타지식 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
                 {% for category in site.categories %}
