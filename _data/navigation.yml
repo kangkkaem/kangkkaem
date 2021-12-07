@@ -11,11 +11,11 @@ docs:
   - title: Java
     children:
       - title: "Java"
-        url: /docs/#java/
+        url: /categories/#java/
       - title: "연습문제"
-        url: /docs/연습문제/
+        url: /categories/#연습문제/
       - title: "기타지식"
-        url: /docs/기타지식/
+        url: /categories/#기타지식/
         
 
 
