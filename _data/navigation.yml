@@ -14,6 +14,9 @@ docs:
         url: /docs/#java/
       - title: "연습문제"
         url: /docs/연습문제/
+      - title: "기타지식"
+        url: /docs/기타지식/
+        
 
 
   # - title: "About"

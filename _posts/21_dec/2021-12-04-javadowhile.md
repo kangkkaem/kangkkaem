@@ -1,8 +1,8 @@
 ---
 layout: single
 title:  "Java - do while문"
-categories: java
-tag: [연습문제]
+categories: 연습문제
+tag: [java]
 toc: false
 author_profile: true
 search: true
