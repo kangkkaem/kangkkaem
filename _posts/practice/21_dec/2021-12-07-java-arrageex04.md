@@ -88,7 +88,7 @@ public class Sample {
 	}
 }
 ```
-![상품출력](/assets/images/상품출력.PNG)
+![LG냉장고](/assets/images/LG냉장고.JPG)
 3번 문제와 유사한 문제다.
 
 ------
