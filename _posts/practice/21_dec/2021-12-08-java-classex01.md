@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Java -클래스 연습문제-5"
+title:  "Java -클래스 연습문제-1"
 categories: 연습문제
 tag: [연습문제]
 toc: false
