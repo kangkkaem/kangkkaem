@@ -10,7 +10,7 @@ sidebar:
   nav: "docs"
 ---
 
-
+### 예제)
 
 ```java
 //성적관리

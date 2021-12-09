@@ -5,7 +5,7 @@ categories: java
 tag: [java]
 toc: false
 author_profile: true
-search: true
+
 sidebar:
   nav: "docs"
 ---
