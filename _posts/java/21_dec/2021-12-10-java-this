@@ -1,0 +1,51 @@
+---
+layout: single
+title:  "Java- this의 의미 "
+categories: java
+tag: [java]
+toc: false
+author_profile: true
+search: true
+sidebar:
+  nav: "docs"
+---
+
+
+
+
+this 는 메서드나 생성자의 현재 개
+
+Test class 를 생성했다.
+```java
+public class Test {
+	int x;
+
+	public Test(int x) {
+		this.x = x;
+	}
+}
+```
+메인메소드를 생성했다.
+```java
+public class Main {
+
+	public static void main(String[] args) {
+		Test a = new Test(5);
+		System.out.println("출력 :" +a.x);             //출력 5
+	}
+
+}
+```
+
+this 는 인스턴스 자기 자신을 가리키는 키워드이다. 생성자나 메소드 내에서 쓰인다.
+
+
+
+**this 의 사용**
+
+- 현재 클래스 생성자 호출
+- 현재 클래스 메서드 호출
+- 현재 클래스 객체를 반환
+- 메서드 호출에서 인수 전달
+- 생성자 호출에서 인수 전달
+
