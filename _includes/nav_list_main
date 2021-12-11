@@ -36,6 +36,11 @@
                         <li><a href="/categories/#기타" class="">기타 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
+                {% for category in site.categories %}
+                    {% if category[0] == "자바강의" %}
+                        <li><a href="/categories/#자바강의" class="">자바강의 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
             </ul>
       </li>
   </ul>
