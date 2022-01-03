@@ -60,7 +60,7 @@
                         <li><a href="/categories/#JDBC강의" class="">JDBC강의 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-                <span class="nav__sub-title">기타</span>
+                <span class="nav__sub-title">HTML</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "HTML" %}
