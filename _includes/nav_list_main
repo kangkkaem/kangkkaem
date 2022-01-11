@@ -62,6 +62,16 @@
                         <li><a href="/categories/#HTML" class="">HTML ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
+                {% for category in site.categories %}
+                {% if category[0] == "HTML강의" %}
+                    <li><a href="/categories/#HTML강의" class="">HTML강의 ({{category[1].size}})</a></li>
+                {% endif %}
+                {% endfor %}
+                {% for category in site.categories %}
+                {% if category[0] == "JAVASCRIPT" %}
+                    <li><a href="/categories/#JAVASCRIPT" class="">JAVASCRIPT ({{category[1].size}})</a></li>
+                {% endif %}
+                {% endfor %}
         <span class="nav__sub-title">기타</span>
             <ul>
                 {% for category in site.categories %}
