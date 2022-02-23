@@ -55,7 +55,7 @@
                         <li><a href="/categories/#JDBC강의" class="">JDBC강의 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-                <span class="nav__sub-title">HTML</span>
+        <span class="nav__sub-title">HTML</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "HTML" %}
@@ -72,7 +72,7 @@
                     <li><a href="/categories/#JAVASCRIPT" class="">JAVASCRIPT ({{category[1].size}})</a></li>
                 {% endif %}
                 {% endfor %}
-                <span class="nav__sub-title">Servlet,JSP</span>
+        <span class="nav__sub-title">Servlet,JSP</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Servlet,JSP" %}
@@ -82,6 +82,14 @@
                 {% for category in site.categories %}
                     {% if category[0] == "Servlet,JSP강의" %}
                         <li><a href="/categories/#Servlet,JSP강의" class="">Servlet,JSP강의 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+
+        <span class="nav__sub-title">안드로이드</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "안드로이드" %}
+                        <li><a href="/categories/#안드로이드" class="">안드로이드 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
         <span class="nav__sub-title">기타</span>
