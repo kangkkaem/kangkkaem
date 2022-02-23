@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'ROKAFSlabSerifBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts2201-3@1.0/ROKAFSlabSerifBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'ROKAFSlabSerifBold';
+}
+
+
+#page{ height: 960px; text-align: center;
+border: 1px solid gainsboro;
+float: bottom;
+font-weight: bolder;
+background-color: rgb(71, 197, 149);
+}
