@@ -58,7 +58,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">HTML</span>
+        <span class="nav__sub-title">HTML/CSS/JAVASCRIPT</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "HTML" %}
@@ -68,6 +68,11 @@
                 {% for category in site.categories %}
                 {% if category[0] == "HTML강의" %}
                     <li><a href="/categories/#HTML강의" class="">HTML강의 ({{category[1].size}})</a></li>
+                {% endif %}
+                {% endfor %}
+                {% for category in site.categories %}
+                {% if category[0] == "CSS" %}
+                    <li><a href="/categories/#CSS" class="">CSS ({{category[1].size}})</a></li>
                 {% endif %}
                 {% endfor %}
                 {% for category in site.categories %}
